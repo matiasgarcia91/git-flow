@@ -14,9 +14,6 @@ const Login = () => {
 
   const onFormSubmit = event => {
     event.preventDefault();
-    // Collected the data
-    // Now need to make a request to the backend to create this user.
-    // we are going to use a thunk
     dispatch(login(email, password, history));
   };
 
