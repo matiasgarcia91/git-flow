@@ -17,6 +17,7 @@ const Login = () => {
     dispatch(login(email, password, history));
   };
 
+
   return (
     <div>
       <h3>Login!</h3>
@@ -32,7 +33,7 @@ const Login = () => {
           <div>
             <label>Pasdasdasdard</label>
             <input
-              name='password'
+              name='pasdasdad'
               onChange={e => setPassword(e.target.value)}
             />
           </div>
