@@ -22,22 +22,22 @@ const Login = () => {
       <h3>Login!</h3>
 
       {loading ? (
-        <div>Loading...</div>
+        <div>Lodaddag...</div>
       ) : (
         <form onSubmit={onFormSubmit}>
           <div>
-            <label>Email</label>
-            <input name='email' onChange={e => setEmail(e.target.value)} />
+            <label>Emasasasdal</label>
+            <input name='emadsasas' onChange={e => setEmail(e.target.value)} />
           </div>
           <div>
-            <label>Password</label>
+            <label>Pasdasdasdard</label>
             <input
               name='password'
               onChange={e => setPassword(e.target.value)}
             />
           </div>
           <div>
-            <button>Log in</button>
+            <button>Loasdasn</button>
           </div>
         </form>
       )}
