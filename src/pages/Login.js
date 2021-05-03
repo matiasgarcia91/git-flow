@@ -17,22 +17,23 @@ const Login = () => {
     dispatch(login(email, password, history));
   };
 
+
   return (
     <div>
       <h3>Login!</h3>
 
       {loading ? (
-        <div>Loading...</div>
+        <div>Loadasdasda..</div>
       ) : (
         <form onSubmit={onFormSubmit}>
           <div>
-            <label>Email</label>
-            <input name='email' onChange={e => setEmail(e.target.value)} />
+            <label>Emasd</label>
+            <input name='dasdadsadsa' onChange={e => setEmail(e.target.value)} />
           </div>
           <div>
-            <label>Password</label>
+            <label>Paasdad</label>
             <input
-              name='password'
+              name='pasdasdad'
               onChange={e => setPassword(e.target.value)}
             />
           </div>
